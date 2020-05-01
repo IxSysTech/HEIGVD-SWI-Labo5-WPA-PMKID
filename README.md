@@ -56,17 +56,17 @@ A manière de comparaison, réaliser l'attaque sur le [fichier de capture](files
 
 Nous récupérons les 2 PMKID contenu dans le fichier
 
-![image-20200501160245729](/home/david/.config/Typora/typora-user-images/image-20200501160245729.png)
+![](./img/image-20200501160245729.png)
 
-![image-20200501160335353](/home/david/.config/Typora/typora-user-images/image-20200501160335353.png)
+![image-20200501160335353](./img/image-20200501160335353.png)
 
 Nous pouvons supprimer le deuxième, car nous avons besoin que du premier qui correspond au SSID Sunrise_2.4GHz_DD4B90.
 
 Nous n'avons plus qu'à le passer dans hashcat :
 
-![image-20200501162026774](/home/david/.config/Typora/typora-user-images/image-20200501162026774.png)
+![image-20200501162026774](./img/image-20200501162026774.png)
 
-![image-20200501162054734](/home/david/.config/Typora/typora-user-images/image-20200501162054734.png)
+![image-20200501162054734](./img/image-20200501162054734.png)
 
 
 ## Livrables
